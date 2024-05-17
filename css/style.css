@@ -34,7 +34,7 @@
   /* COLORS */
   --blue:#66e2dc;
   --red:#fa7453;
-  --body-bg-white:#fcfaf9;
+  --white:#fcfaf9;
   --dark:#191826;
   --orange:#ffb964;
 }
@@ -46,6 +46,7 @@ html {
   height: 100%;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 *,
@@ -60,8 +61,7 @@ body {
   height: 100%;
   background-color: #fff;
   color: #222;
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
+  font-family:"IBM Plex Sans", "Arial", sans-serif;
   line-height: 1.5;
 }
 
@@ -112,6 +112,58 @@ input:-webkit-autofill:focus {
   color: rgba(52, 49, 61, 0.5);
 } */
 
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  width: 100%;
+  max-width: 333px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  letter-spacing: -0.18px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0.75rem;
+}
+
+.btn__img {
+  margin-right: 0.5rem;
+}
+
+.btn__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--apple {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.btn--apple:hover {
+  background-color: var(--blue);
+}
+
+.btn--apple:active {
+  opacity: 0.8;
+}
+
+.btn--android {
+  background-color: var(--white);
+  color: var(--dark);
+}
+
+.btn--android:hover {
+  background-color: var(--orange);
+}
+
+.btn--android:active {
+  opacity: 0.8;
+}
 
 
 /* MAIN-CONTENT */
