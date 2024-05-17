@@ -30,6 +30,15 @@
 
 /* CUSTOM PROPS */
 
+:root {
+  /* COLORS */
+  --blue:#66e2dc;
+  --red:#fa7453;
+  --body-bg-white:#fcfaf9;
+  --dark:#191826;
+  --orange:#ffb964;
+}
+
 
 /* GLOBAL */
 
