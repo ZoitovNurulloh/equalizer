@@ -238,6 +238,32 @@ input:-webkit-autofill:focus {
 }
 
 
+/* FOOTER */
+
+.footer {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo {
+  margin-bottom: 2rem;
+}
+
+.footer__description {
+  line-height: 1.625rem;
+  margin-bottom: 4rem;
+}
+
+.footer__gmail {
+  font-weight: 700;
+  color:var(--dark);
+}
+
 
 /* RETINA BACKGROUND IMAGES */
 @media
