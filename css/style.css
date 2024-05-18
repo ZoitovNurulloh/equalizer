@@ -60,7 +60,7 @@ body {
   flex-direction: column;
   height: 100%;
   background-color: #fff;
-  color: #222;
+  color: var(--dark);
   font-family:"IBM Plex Sans", "Arial", sans-serif;
   line-height: 1.5;
 }
@@ -74,9 +74,9 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1158px;
+  padding-left: 24px;
+  padding-right: 24px;
   margin-left: auto;
   margin-right: auto;
 }
