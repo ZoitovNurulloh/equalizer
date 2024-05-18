@@ -59,7 +59,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: #fff;
+  background-color: var(--white);
   color: var(--dark);
   font-family:"IBM Plex Sans", "Arial", sans-serif;
   line-height: 1.5;
