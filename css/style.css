@@ -165,6 +165,19 @@ input:-webkit-autofill:focus {
   opacity: 0.8;
 }
 
+/* LOGO */
+.logo {
+  display: block;
+}
+
+.logo__img {
+  display: block;
+  width: 9.125rem;
+  height: 2rem;
+}
+
+
+
 
 /* MAIN-CONTENT */
 
