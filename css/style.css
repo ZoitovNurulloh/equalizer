@@ -205,6 +205,31 @@ input:-webkit-autofill:focus {
 
 
 
+/* HEADER */
+
+.header__logo {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+/* HERO */
+.header__hero {
+  padding-top: 1.5rem;
+  padding-bottom: 10.375rem;
+}
+
+.header__heading {
+  margin: 0;
+  margin-bottom: 1.25rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: -0.45px;
+}
+
+.header__description {
+  line-height: 1.625rem;
+}
+
 
 /* MAIN-CONTENT */
 
