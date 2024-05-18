@@ -177,6 +177,33 @@ input:-webkit-autofill:focus {
 }
 
 
+/* NAV */
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 1.25rem;
+}
+
+.nav__link {
+  display: block;
+}
+
+.nav__icon {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  color:var(--dark);
+}
+
+.nav__icon:hover {
+  color: var(--red);
+}
+
+
 
 
 /* MAIN-CONTENT */
