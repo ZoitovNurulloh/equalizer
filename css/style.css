@@ -120,7 +120,7 @@ input:-webkit-autofill:focus {
 .btn {
   display: inline-block;
   width: 100%;
-  max-width: 333px;
+  max-width: 18.5rem;
   text-align: center;
   cursor: pointer;
   font-weight: 700;
