@@ -132,6 +132,10 @@ input:-webkit-autofill:focus {
   border-radius: 0.75rem;
 }
 
+.btn:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .btn__img {
   margin-right: 0.5rem;
 }
