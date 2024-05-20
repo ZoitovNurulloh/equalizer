@@ -402,6 +402,33 @@ only screen and (                min-resolution: 2dppx) {
     line-height: 1.75rem;
   }
 
+
+  /* INFO-PREMIUM-WRAPPER */
+
+  .info-premium-wrapper {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 6rem;
+  }
+
+  /* INFO */
+
+  .info__img {
+    width: 16.9rem;
+    height: 34.75rem;
+  }
+
+  /* PREMIUM */
+
+  .premium {
+    width: 100%;
+    max-width: 25rem;
+    padding: 3rem 3rem;
+    right: 6rem;
+    top: 9.4rem;
+  }
+
+
   /* FOOTER */
 
   .footer {
