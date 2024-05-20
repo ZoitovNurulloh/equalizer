@@ -384,6 +384,13 @@ only screen and (                min-resolution: 2dppx) {
   }
 
   /* HEADER */
+  .header {
+    background-image: url(../img/bg-pattern-1.svg);
+    background-repeat:no-repeat;
+    background-position: top -2rem right -2.25rem;
+    background-size: 16.625rem 25rem;
+  }
+
   .header__logo {
     padding-top: 3.875rem;
     padding-bottom: 3.875rem;
