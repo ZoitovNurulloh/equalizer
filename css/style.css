@@ -359,3 +359,11 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
 }
+
+@media only screen and (min-width:425px) {
+  .info__img {
+    left: 64px;
+  }
+}
+
+
