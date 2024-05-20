@@ -421,7 +421,7 @@ only screen and (                min-resolution: 2dppx) {
   .info-premium-wrapper {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-    padding-bottom: 6rem;
+    padding-bottom: 6.375rem;
   }
 
   /* INFO */
