@@ -401,4 +401,27 @@ only screen and (                min-resolution: 2dppx) {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+
+  /* FOOTER */
+
+  .footer {
+    padding-top: 5.25rem;
+    padding-bottom: 5.25rem;
+  }
+
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer-description-nav-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer__description {
+    margin: 0;
+    width: 100%;
+    max-width: 22.8rem;
+  }
 }
