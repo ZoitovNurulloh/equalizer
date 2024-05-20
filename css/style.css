@@ -367,3 +367,38 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 
+@media only screen and (min-width:768px) {
+  body {
+    background-position: left 20px top -200px;;
+    background-size: 0 0, 1000px auto;
+  }
+
+  .container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .header__logo {
+    padding-top: 3.875rem;
+    padding-bottom: 3.875rem;
+  }
+
+  .header__hero {
+    max-width: 32.5rem;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 15.5rem;
+  }
+
+  .header__heading {
+    margin-bottom: 1.75rem;
+    font-size: 4rem;
+    line-height: 4rem;
+    letter-spacing: -0.73px;
+  }
+
+  .header__description {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
