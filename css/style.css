@@ -63,9 +63,11 @@ body {
   color: var(--dark);
   font-family:"IBM Plex Sans", "Arial", sans-serif;
   line-height: 1.5;
-  background-image: url("../img/bg-main-mobile.png");
+  background-image: url("../img/bg-main-mobile.png"),
+  url("../img/bg-main-tablet.png");
   background-repeat: no-repeat;
   background-position: right -12.5rem top -15.6rem;
+  background-size: auto auto, 0 0;
 }
 
 img {
