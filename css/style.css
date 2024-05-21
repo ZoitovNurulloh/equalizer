@@ -64,7 +64,8 @@ body {
   font-family:"IBM Plex Sans", "Arial", sans-serif;
   line-height: 1.5;
   background-image: url("../img/bg-main-mobile.png"),
-  url("../img/bg-main-tablet.png");
+                    url("../img/bg-main-tablet.png"),
+                    url("../img/bg-main-desktop.png");
   background-repeat: no-repeat;
   background-position: right -12.5rem top -15.6rem;
   background-size: auto auto, 0 0;
@@ -378,10 +379,10 @@ only screen and (                min-resolution: 2dppx) {
     background-size: 0 0, 1000px auto;
   }
 
-  .container {
+  /* .container {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-  }
+  } */
 
   /* HEADER */
   .header {
@@ -463,5 +464,116 @@ only screen and (                min-resolution: 2dppx) {
     margin: 0;
     width: 100%;
     max-width: 22.8rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-image: url("../img/bg-main-mobile.png"),
+                      url("../img/bg-main-tablet.png"),
+                      url("../img/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-position: left -15.6rem top -10rem ;
+  background-size: 0 0, 0 0, 1613px auto;
+  }
+
+  .container {
+    /* padding-left: 5.125rem;
+    padding-right: 5.125rem; */
+  }
+
+  /* HEADER */
+
+  .header {
+    background-size: 19.5rem 29.25rem;
+    background-position: top -2.5rem right;
+  }
+
+  .header__hero {
+    padding-top: 4rem;
+    padding-bottom: 20rem;
+    max-width: 50rem;
+    width: 100%;
+  }
+
+  .header__heading {
+    margin-bottom: 2.5rem;
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+    letter-spacing: -1px;
+  }
+
+  .header__description {
+    font-size: 1.25rem;
+    line-height: 2.125rem;
+  }
+
+/* INFO-PREMIUM-WRAPPER */
+  .info-premium-wrapper {
+    padding-left: 6.7rem;
+    padding-right: 6.7rem;
+    padding-bottom: 7.2rem;
+  }
+
+
+  /* INFO */
+
+  .info {
+    background-position: left 336px top;
+    background-size: 19.5rem 29.25rem;
+  }
+
+  .info__img {
+    left: 6.3rem;
+    width: 19.5rem;
+    height: 40.125rem;
+  }
+
+
+  /* PREMIUM */
+
+  .premium {
+    right: 9rem;
+    top: 5.6rem;
+    padding: 3.625rem 3.68rem 3rem 3.4rem;
+  }
+
+
+  /* FOOTER */
+
+  .footer {
+    margin-bottom: 6rem;
+  }
+
+  .footer__container {
+    flex-direction: row;
+  }
+
+  .footer__logo {
+    margin-right: 3rem;
+  }
+
+  .footer-description-nav-wrapper {
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .info {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1110px;
+    width: 100%;
+  }
+
+  .premium {
+    right: 16.25rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .premium {
+    right: 25rem;
   }
 }
